@@ -1,0 +1,13 @@
+name: ml-project1
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - numpy=1.26.4
+  - pandas=2.2.2
+  - matplotlib=3.8.4
+  - pip
+  - pip:
+      - notebook==7.1.3
